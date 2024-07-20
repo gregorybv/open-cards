@@ -37,7 +37,7 @@ const OpenCards = () => {
             }}
             transition={{duration: 0.5}}
             className="h-[500px] rounded-[20px] bg-cover bg-[20%]  cursor-pointer"
-            animate={index != expandedIndex ? "collapsed" : "expanded"}
+            animate={index !== expandedIndex ? "collapsed" : "expanded"}
           ></motion.div>
         ))}
       </div>
